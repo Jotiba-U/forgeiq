@@ -1,0 +1,41 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Frontend dependencies & builds
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/next-env.d.ts
+
+# Backend dependencies & virtual envs
+backend/.env
+backend/.venv/
+backend/venv/
+backend/env/
+backend/ENV/
+backend/bin/
+backend/include/
+backend/lib/
+backend/share/
+
+# Python cache & build files
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Application specific data stores
+chroma_data/
+backend/chroma_data/
+backend/uploads/*
+!backend/uploads/.gitkeep
